@@ -19,7 +19,7 @@ import time
 import machine, neopixel
 np = neopixel.NeoPixel(machine.Pin(4), 8)
 while True:
-for (parsed i = 0; i < 144; i++)  { 
+for (parsed i = 0; i < 144;  { 
 url = (parsed[i][0])
 find =(parsed[i][1])
 calcdo = (parsed[i][2])
