@@ -8,9 +8,9 @@ $calcdo = $_POST["matches"];
  $file = fopen("program.json","a+") or die ("file not found"); 
 $json = file_get_contents('program.json');
 $data = json_decode($json, true); 
-$data[$lednum][$url] = $url;
-$data[$lednum][$find]=$find;
-$data[$lednum][$calcdo]=$calcdo;
+$data[$lednum][0] = $url;
+$data[$lednum][1]=$find;
+$data[$lednum][2]=$calcdo;
 $newjson = json_encode($data); file_put_contents('program.json', $newjson); fclose($file);
 $message = ( $lednum . $url . $find . $calcdo) ;
 }
