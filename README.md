@@ -1,2 +1,3 @@
-# trainable-esp32
-Change settings of ESP32 micropython based device using web app
+# trainable-esp8266
+Change settings easily & remotely - by using web app
+Beat memory limits - by storing config file on external PHP server.
