@@ -28,6 +28,7 @@ parsed = response.json()
 np = neopixel.NeoPixel(machine.Pin(4), 8)
 while True:
     for i in range(144):
+        time.sleep(1)
         url = parsed[i][0]
         find = parsed[i][1]
         calcdo = parsed[i][2]
