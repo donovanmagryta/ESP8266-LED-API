@@ -27,7 +27,7 @@ while True:
     for i in range(144):
         response = urequests.get('http://example.com?admin=no&question=%i')
         parsed = response.json()
-        time.sleep(2)
+        time.sleep(30)
         url = parsed[i][0]
         find = parsed[i][1]
         calcdo = parsed[i][2]
