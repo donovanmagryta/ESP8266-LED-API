@@ -22,11 +22,11 @@ echo '<html> <body> <form action="index.php?admin=password123" method="post"> <?
 }
 }
  else {
- $lednum = urldecode($_GET["lednum"]);
+ $question = urldecode($_GET["question"]);
  $file = fopen("program.json","a+") or die ("file not found"); 
  $json = file_get_contents('program.json');
  $data = json_decode($json, true); 
- echo $data[$lednum];
+ echo $data[$question];
  fclose($file);
 }
 ?>
