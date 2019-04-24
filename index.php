@@ -12,7 +12,9 @@ $data = json_decode($json, true);
 $data[$lednum][0] = $url;
 $data[$lednum][1]=$find;
 $data[$lednum][2]=$calcdo;
-$newjson = json_encode($data); file_put_contents('program.json', $newjson); fclose($file);
+$newjson = json_encode($data); 
+file_put_contents('program.json', $newjson); 
+fclose($file);
 $message = ( $lednum . $url . $find . $calcdo) ;
 }
 else {
@@ -20,7 +22,11 @@ echo '<html> <body> <form action="index.php?admin=password123" method="post"> <?
 }
 }
  else {
- echo $messagejson;
+ $file = fopen("program.json","a+") or die ("file not found"); 
+ $json = file_get_contents('program.json');
+ $data = json_decode($json, true); 
+ echo $data[$lednum];
+ fclose($file);
 }
 ?>
 
