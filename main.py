@@ -22,12 +22,11 @@ def connect():
         print 'Connection successful'
         print station.ifconfig()
 
-
-response = urequests.get('http://example.com?admin=no')
-parsed = response.json()
 np = neopixel.NeoPixel(machine.Pin(4), 8)
 while True:
     for i in range(144):
+        response = urequests.get('http://example.com?admin=no&question=i')
+        parsed = response.json()
         time.sleep(2)
         url = parsed[i][0]
         find = parsed[i][1]
