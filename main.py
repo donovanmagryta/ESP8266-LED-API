@@ -23,8 +23,12 @@ def connect():
         print station.ifconfig()
 
 np = neopixel.NeoPixel(machine.Pin(4), 8)
-while True:
-    for i in range(144):
+constraint = urequests.get('http://example.com?admin=no&question=%i')
+constraint = constraint.json()
+loopmax = parsed[0]
+
+While True:
+    for i in range(loopmax):
         response = urequests.get('http://example.com?admin=no&question=%i')
         parsed = response.json()
         time.sleep(30)
