@@ -25,7 +25,7 @@ def connect():
 np = neopixel.NeoPixel(machine.Pin(4), 8)
 constraint = urequests.get('http://example.com?admin=no&question=%i')
 constraint = constraint.json()
-loopmax = parsed[0]
+loopmax = parsed[0][3]
 
 While True:
     for i in range(loopmax):
@@ -35,6 +35,7 @@ While True:
         url = parsed[i][0]
         find = parsed[i][1]
         calcdo = parsed[i][2]
+        loopmax = parsed[i][3]
         response2 = urequests.get('url')
         parsed2 = response2.json()
         find2 = parsed2[find]
