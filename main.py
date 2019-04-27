@@ -25,7 +25,9 @@ def connect():
 np = neopixel.NeoPixel(machine.Pin(4), 8)
 constraint = urequests.get('http://example.com?admin=no&question=%i')
 constraint = constraint.json()
-loopmax = parsed[0][3]
+#loopmax = parsed[0][3]
+loopmax = 100
+#use only pure red green or blue and Max 100 pixels.
 
 While True:
     for i in range(loopmax):
