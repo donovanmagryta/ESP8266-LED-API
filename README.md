@@ -9,4 +9,4 @@ Will it rain today? Have I reached my Kickstarter goals? Snow day? Good windspee
 Change settings easily & remotely - by using web app.
 
 
-Beat memory limits - by storing settings externally served in sections.
+Beat memory limits - by storing settings externally, served in sections.
