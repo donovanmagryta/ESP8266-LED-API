@@ -49,6 +49,7 @@ While True:
             np.write(red)
         else:
             print 'error'
+            blue = (0,0,255)
             break
 
 
