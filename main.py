@@ -26,8 +26,8 @@ np = neopixel.NeoPixel(machine.Pin(4), 8)
 constraint = urequests.get('http://example.com?admin=no&question=%i')
 constraint = constraint.json()
 #loopmax = parsed[0][3]
-loopmax = 100
-#use only pure red green or blue and Max 100 pixels.
+loopmax = 72
+#use only pure red green or blue and Max 72 pixels (20ma per LED) to prevent over current.
 
 While True:
     for i in range(loopmax):
