@@ -1,6 +1,6 @@
 <?php
- if (admin == "password123") {
- if(isset($_POST["lednum"])){
+if (admin == "password123") {
+if(isset($_POST["lednum"])){
 $lednum = $_POST["lednum"];
 $lednum = ($lednum - 1);
 $url = $_POST["url"];
@@ -19,11 +19,11 @@ fclose($file);
 $message = ( $lednum . $url . $find . $calcdo) ;
 }
 else if (!isset($_POST["lednum"])) {
-echo '<html> <body> <form action="index.php?admin=password123" method="post"> <?php echo $message; ?> <input type="text" name="lednum" value="led number"/><input type ="text" name="url" value="api url"/><input type ="text" name="find" value="search keyword"/><input type="text" name="matches" value="must match"/><input type="submit" name="SubmitButton"/> </form> </body> </html>';
+echo '<html> <body> <form action="index.php?admin=password123" method="post"> <?php echo $message; ?> <input type="text" name="lednum" value="led number"/><br><input type ="text" name="url" value="api url"/><br><input type ="text" name="find" value="search keyword"/><br><input type="text" name="matches" value="must match"/><br><input type="submit" name="Submit"/> </form> </body> </html>';
 }
 }
  else {
- $question = urldecode($_GET["question"]);
+ $lednum = urldecode($_GET["lednum"]); //lednum is question, the rest are parameters.
  $file = fopen("program.json","a+") or die ("file not found"); 
  $json = file_get_contents('program.json');
  $data = json_decode($json, true); 
