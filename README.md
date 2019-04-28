@@ -1,4 +1,4 @@
-# trainable-esp8266
+# Trainable-ESP8266
 
 ESP8266 based LED strip display of Yes/No API data.
 
