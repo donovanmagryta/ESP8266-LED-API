@@ -22,7 +22,7 @@ def connect():
         print 'Connection successful'
         print station.ifconfig()
 
-np = neopixel.NeoPixel(machine.Pin(4), 8)
+np = neopixel.NeoPixel(machine.Pin(4),72)
 constraint = urequests.get('http://example.com?admin=no&question=%i')
 constraint = constraint.json()
 #loopmax = parsed[0][3]
