@@ -33,11 +33,11 @@ While True:
     for i in range(loopmax):
         response = urequests.get('http://example.com?admin=no&question=%i')
         parsed = response.json()
-        time.sleep(30)
         url = parsed[i][0]
         find = parsed[i][1]
         calcdo = parsed[i][2]
-        loopmax = parsed[i][3]
+        pause = parsed[i][3]
+        time.sleep(pause)
         response2 = urequests.get('url')
         parsed2 = response2.json()
         find2 = parsed2[find]
