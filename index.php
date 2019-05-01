@@ -14,7 +14,7 @@ $data = json_decode($json, true);
 $data[$lednum][0] = $url;
 $data[$lednum][1]=$find;
 $data[$lednum][2]=$calcdo;
-$data[$lednum[3]=$pause;
+$data[$lednum][3]=$pause;
 $newjson = json_encode($data); 
 file_put_contents('program.json', $newjson); 
 fclose($file);
