@@ -18,5 +18,5 @@ Optimized circuit efficiency by using < 80 pure red, green, or blue WS2812B LEDs
 
 D1 Mini ESP8266 5V---LED 5V
 D1 Mini ESP8266 GND---LED Ground
-D1 Mini ESP8266 D4---LED Data In
+D1 Mini ESP8266 GPIO4(D2)---LED Data In
 D1 Mini ESP8266 USB--->2 Amp USB Power Supply
