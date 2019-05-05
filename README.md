@@ -12,6 +12,8 @@ Change settings easily & remotely - by using web app.
 Beat memory limits - by storing settings externally, served in sections.
 
 
+Manage multiple devices
+
 Optimized circuit efficiency by using < 80 pure red, green, or blue WS2812B LEDs.
 
 # Circuit:
