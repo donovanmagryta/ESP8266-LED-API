@@ -28,3 +28,5 @@ D1 Mini ESP8266 GPIO4(D2)---LED Strip Data In
 # Parts List:
 
 Wemos D1 Mini - https://banggood.app.link/A4iiiWYPrW
+
+WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
