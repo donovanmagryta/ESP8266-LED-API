@@ -24,6 +24,7 @@ D1 Mini ESP8266 GND---Ground 2A Power---LED Ground
 
 D1 Mini ESP8266 GPIO4(D2)---LED Strip Data In
 
+*Note: Some LED strips have additional wires for convenient power connection.
 
 # Parts List:
 
