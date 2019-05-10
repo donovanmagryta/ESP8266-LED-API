@@ -15,46 +15,33 @@ Optimized circuit efficiency by using 60 pure red, green, or blue WS2812B LEDs.
 
 Cheap - parts cost < $10 US Dollars
 
+# HowTo:
+1. Parts Needed:
+>Wemos D1 Mini - https://banggood.app.link/A4iiiWYPrW
 
-# Circuit:
+>WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
 
-D1 Mini ESP8266 5V---5V 2A Power---LED VCC
+>5V 2A Power Supply - **Must be at least 2 amps** I used a cut USB cable and a 2.1A USB Charger.  
 
-D1 Mini ESP8266 GND---Ground 2A Power---LED Ground
+2. Sign up for a free PHP web hosting service such as 000webhost.com and load the led.php file onto there. 
 
-D1 Mini ESP8266 GPIO4(D2)---LED Strip Data In
+3. Download Python from https://www.python.org/downloads/ and be sure to enable install to path.
 
-*Note: Some LED strips have additional wires for convenient power connection.
+4. Open cmd.exe command line app.
 
-# Parts List:
+5. Enter "pip install esptool" and follow prompts.
 
-Wemos D1 Mini - https://banggood.app.link/A4iiiWYPrW
+6. Enter ```cd C:\Users\g9duf\Desktop\micropython``` replacing path with the actual path to your micropython.bin file.
 
-WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
+7. Enter ```esptool.py --chip esp8266 --port COM12 erase_flash``` replacing COM12 with the USB  your board is connected to.
 
-5V 2A Power Supply - **Must be at least 2 amps** I used a cut USB cable and a 2.1A USB Charger.
+8. Enter ```esptool.py --chip esp8266 --port COM12 write_flash -z 0x1000 micropython.bin``` replacing COM12 with the port your board is connected to.
 
-# Installation (Windows Example):
+9. In a text editor such as Notepad, open up main.py and input your building WiFi hotspot credentials and web hosting URL for led.php and hit save.
 
-1. Sign up for a free PHP web hosting service such as 000webhost.com and load the led.php file onto there. 
+10. Connect to the mini WiFi hotspot broadcasted by the board and go to http://micropython.org/webrepl/ to load main.py onto the board.
 
-2. Download Python from https://www.python.org/downloads/ and be sure to enable install to path.
-
-3. Open cmd.exe command line app.
-
-4. Enter "pip install esptool" and follow prompts.
-
-5. Enter ```cd C:\Users\g9duf\Desktop\micropython``` replacing path with the actual path to your micropython.bin file.
-
-6. Enter ```esptool.py --chip esp8266 --port COM12 erase_flash``` replacing COM12 with the USB  your board is connected to.
-
-7. Enter ```esptool.py --chip esp8266 --port COM12 write_flash -z 0x1000 micropython.bin``` replacing COM12 with the port your board is connected to.
-
-8. In a text editor such as Notepad, open up main.py and input your building WiFi hotspot credentials and web hosting URL for led.php and hit save.
-
-9. Connect to the mini WiFi hotspot broadcasted by the board and go to http://micropython.org/webrepl/ to load main.py onto the board.
-
-10. Solder up your device.  
+11. Solder up your device.  
 >D1 Mini ESP8266 5V---5V 2A Power---LED VCC
 
 >D1 Mini ESP8266 GND---Ground 2A Power---LED Ground
@@ -63,7 +50,7 @@ WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
 
 >*Note: Some LED strips have additional wires for convenient power connection.
 
-11. Edit the settings at your web hosting URL where led.php is located to program the device.
+12. Edit the settings at your web hosting URL where led.php is located to program the device.
 ...
 
 ![](appdemo.gif)
