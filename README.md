@@ -64,4 +64,4 @@ WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
 >*Note: Some LED strips have additional wires for convenient power connection.
 
 11. Edit the settings at your web hosting URL where led.php is located to program the device.
-![](LED API GUI.gif)
+![](appdemo.gif)
