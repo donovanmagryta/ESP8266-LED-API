@@ -1,4 +1,4 @@
-# Trainable-ESP8266
+# Unlimited Memory ESP8266 - IoT Whiteboard Example
 
 ESP8266 based LED strip display of Yes/No API data.
 
