@@ -32,6 +32,8 @@ Wemos D1 Mini - https://banggood.app.link/A4iiiWYPrW
 
 WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
 
+5V 2A+ Power Supply - I used a cut USB cable and a 2.4A USB Charger.
+
 # Installation (Windows Example):
 
 1. Sign up for a free PHP web hosting service such as 000webhost.com and load the led.php file onto there. 
