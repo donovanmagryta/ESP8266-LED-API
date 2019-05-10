@@ -15,7 +15,7 @@ Optimized circuit efficiency by using 60 pure red, green, or blue WS2812B LEDs.
 
 Cheap - parts cost < $10 US Dollars
 
-# HowTo:
+# Tutorial:
 ## 1. Get Parts:
 * Wemos D1 Mini - https://banggood.app.link/A4iiiWYPrW
 
