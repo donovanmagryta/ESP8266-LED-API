@@ -26,7 +26,7 @@ Cheap - parts cost < $10 US Dollars
 ## 2. Install the Web App
 
 
-Sign up for a free PHP web hosting service such as 000webhost.com and load the led.php file onto there in the file manager area. 
+Sign up for a free PHP web hosting service such as https://www.000webhost.com/ and load the led.php file onto there in the file manager area. 
 
 ## 3. Install Firmware
 
