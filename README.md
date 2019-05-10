@@ -17,11 +17,11 @@ Cheap - parts cost < $10 US Dollars
 
 # HowTo:
 1. Parts Needed:
->Wemos D1 Mini - https://banggood.app.link/A4iiiWYPrW
+* Wemos D1 Mini - https://banggood.app.link/A4iiiWYPrW
 
->WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
+* WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
 
->5V 2A Power Supply - **Must be at least 2 amps** I used a cut USB cable and a 2.1A USB Charger.  
+* 5V 2A Power Supply - **Must be at least 2 amps** I used a cut USB cable and a 2.1A USB Charger.  
 
 2. Sign up for a free PHP web hosting service such as 000webhost.com and load the led.php file onto there. 
 
