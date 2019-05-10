@@ -38,7 +38,7 @@ WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
 
 1. Sign up for a free PHP web hosting service such as 000webhost.com and load the led.php file onto there. 
 
-2. Download Python and install to path.
+2. Download Python from https://www.python.org/downloads/ and be sure to enable install to path.
 
 3. Open cmd.exe command line app.
 
@@ -54,6 +54,13 @@ WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
 
 9. Connect to the mini WiFi hotspot broadcasted by the board and go to http://micropython.org/webrepl/ to load main.py onto the board.
 
-10. Solder up your device.
+10. Solder up your device.  
+>D1 Mini ESP8266 5V---5V 2A Power---LED VCC
+
+>D1 Mini ESP8266 GND---Ground 2A Power---LED Ground
+
+>D1 Mini ESP8266 GPIO4(D2)---LED Strip Data In
+
+>*Note: Some LED strips have additional wires for convenient power connection.
 
 11. Edit the settings at your web hosting URL where led.php is located to program the device.
