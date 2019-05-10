@@ -44,11 +44,11 @@ WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
 
 4. Enter "pip install esptool" and follow prompts.
 
-5. Enter "cd C:\Users\g9duf\Desktop\micropython" replacing path with the actual path to your micropython.bin file.
+5. Enter ```cd C:\Users\g9duf\Desktop\micropython``` replacing path with the actual path to your micropython.bin file.
 
-6. Enter "esptool.py --chip esp8266 --port COM12 erase_flash" replacing COM12 with the USB  your board is connected to.
+6. Enter ```esptool.py --chip esp8266 --port COM12 erase_flash``` replacing COM12 with the USB  your board is connected to.
 
-7. Enter "esptool.py --chip esp8266 --port COM12 write_flash -z 0x1000 micropython.bin" replacing COM12 with the port your board is connected to.
+7. Enter ```esptool.py --chip esp8266 --port COM12 write_flash -z 0x1000 micropython.bin``` replacing COM12 with the port your board is connected to.
 
 8. In a text editor such as Notepad, open up main.py and input your building WiFi hotspot credentials and web hosting URL for led.php and hit save.
 
