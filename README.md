@@ -21,7 +21,7 @@ Cheap - parts cost < $10 US Dollars
 
 * WS2812B Addressable 60 LED Strip - https://banggood.app.link/00UfnobQrW
 
-* 5V 2A Power Supply - **Must be at least 2 amps** I used a cut USB cable and a 2.1A USB Charger.  
+* 5V 2A Power Supply - **Must be at least 2 amps.** - I used a cut USB cable and a 2.1A USB Charger.  
 
 ## 2. Install the Web App
 
