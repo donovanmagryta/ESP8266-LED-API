@@ -11,7 +11,7 @@ Beat memory limits - by storing settings externally, served in sections.
 
 Manage multiple devices
 
-Optimized circuit efficiency by using < 80 pure red, green, or blue WS2812B LEDs.
+Optimized circuit efficiency by using 60 pure red, green, or blue WS2812B LEDs.
 
 Cheap - parts cost < $10 US Dollars
 
