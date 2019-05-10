@@ -57,7 +57,7 @@ Connect to the mini WiFi hotspot broadcasted by the board and go to http://micro
 
 >D1 Mini ESP8266 GPIO4(D2)---LED Strip Data In
 
->*Note: Some LED strips have additional wires for convenient power connection.
+**Note: Some LED strips have additional wires for convenient power connection**
 
 ## 6. Program the Device
 
