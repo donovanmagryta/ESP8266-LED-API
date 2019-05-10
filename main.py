@@ -20,7 +20,7 @@ def connect():
 device = rm14
 np = neopixel.NeoPixel(machine.Pin(4),60)
 loopmax = 60
-#use only pure red green or blue and Max 72 pixels (20ma per LED color) to prevent over current.
+#use only pure red green or blue and Max 80 pixels (20ma per LED color) to prevent over current.
 
 While True:
     for i in range(loopmax):
