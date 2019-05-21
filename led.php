@@ -22,7 +22,7 @@ fclose($file);
 echo '<html><style>body { font-size: 300%; }input { font-size: 150%; } button { text-decoration: none; text-align: center; font-size: 100%; margin: 50px; background-color: navy; color: white; border-radius: 12px; } a { text-decoration: none; color: white;} </style> <body> <p> Saved</p><button><a href="http://torchive.000webhostapp.com/led.php?login=admin123">Back</a></button> </body> </html>';
 }
 else if (!isset($_POST["lednum"])) {
-echo '<html><style>body { font-size: 300%; }input { font-size: 150%; }</style> <body> <form action="index.php?login=admin123" method="post"> <?php echo $message; ?>
+echo '<html><style>body { font-size: 300%; }input { font-size: 150%; }</style> <body> <form action="led.php?login=admin123" method="post"> <?php echo $message; ?>
 <input type="text" name="device" value="device ID"/><br><input type="text" name="lednum" value="led number"/><br><input type ="text" name="url" value="api url"/><br><input type ="text" name="find" value="search keyword"/><br><input type="text" name="matches" value="must match"/><br><input type="text" name ="pause" value="seconds till next check"/><br><input type="submit" name="Submit"/> </form> </body> </html>';
 }
 }
