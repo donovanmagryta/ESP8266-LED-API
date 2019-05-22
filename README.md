@@ -63,7 +63,7 @@ Open up UPyCraft and select board-->esp8266, select active USB port, and click b
 ![](burn.gif)
 
 ## 5. Install the Script
-In a text editor or in UPyScraft, open up **connectWiFi.py** and input your WiFi hotspot credentials and in **main.py** enter your web hosting URL for led.php and hit save. Download these files to the board's filesystem.
+In a text editor or in UPyCraft, open up **connectWiFi.py** and input your WiFi hotspot credentials and in **main.py** enter your web hosting URL for led.php and hit save. Download these files to the board's filesystem.
 
 ![](code.gif)
 
