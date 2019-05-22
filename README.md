@@ -22,36 +22,36 @@ Cheap - parts cost < $10 US Dollars
 * 5V 2A Power Supply - **Must be at least 2 amps.** - I used a cut USB cable and a 2.1A USB Charger.  
 
 ## 2. Install the Web App
-
+Sign up for a free PHP web hosting service such as https://www.000webhost.com/ 
 ![](signup.gif)
+Create a new site there.
 ![](newsite1.gif)
+and load the led.php file onto there in the file manager area.
 ![](siteupload.gif)
-Sign up for a free PHP web hosting service such as https://www.000webhost.com/ and load the led.php file onto there in the file manager area.
-![](editphp.gif)
 Modify the url in the led.php to match the url of your website.
+![](editphp.gif)
 
-## 3. Install Firmware
+## 3. Install the Drivers & Software
+Unzip the files.
 ![](unzip1.gif)
 ![](unzip2.gif)
-Unzip the files.
+Install the CH340 drivers.
 ![](driver1.gif)
 ![](driver2.gif)
-Install the CH340 drivers.
-![](burn.gif)
+
+## 4. Install Firmware
 Open up UPyCraft and select board-->esp8266, select active USB port, and click burn firmware. Set flash erase-->on, custom firmware-->select your micropython.bin file you downloaded earlier and hit "flash".
+![](burn.gif)
 
-
-## 4. Install the Script
+## 5. Install the Script
+In a text editor or in UPyScraft, open up connectWiFI.py and input your WiFi hotspot credentials and in main.py enter your web hosting URL for led.php and hit save. Download these files to the board's filesystem.
 ![](code.gif)
-In a text editor such as Notepad, open up connectWiFI.py and input your WiFi hotspot credentials and in main.py enter your web hosting URL for led.php and hit save. Add these files to the board's filesystem using UPyCraft
 
 ## 5. Solder up your device
+Strip wire tips
 ![](wire1.jpg)
 ![](wire2.jpg)
-![](solder1.jpg)
-![](solder2.jpg)
-![](solder3.jpg)
-Strip wire tips and tin with solder then fuse together.
+Then tin with solder then fuse together.
 
 >D1 Mini ESP8266 5V---5V 2A Power---LED VCC
 
@@ -59,16 +59,17 @@ Strip wire tips and tin with solder then fuse together.
 
 >D1 Mini ESP8266 GPIO4(D2)---LED Strip Data In
 
+![](solder1.jpg)
+![](solder2.jpg)
+![](solder3.jpg)
+
 Wrap individual connections in electrical tape to insulate and prevent a short circuit.
+![](tape.jpg)
 
 **Note: Some LED strips have additional wires for convenient power connection**
 
 ## 6. Program the Device
-
-
 Edit the settings at your web hosting URL where led.php is located to program the device.
-...
-
 ![](app.gif)
 
 
