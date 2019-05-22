@@ -1,4 +1,4 @@
-# Unlimited Memory ESP8266 - IoT Whiteboard Example
+# ESP8266 - IoT Whiteboard Example
 
 ESP8266 based LED strip display of Yes/No API data.
 
@@ -6,8 +6,6 @@ Example API queries:
 Will it rain today? Have I reached my Kickstarter goals? Snow day? Good windspeed to fly drone? 
 
 Change settings easily & remotely - by using web app.
-
-Beat memory limits - by storing settings externally, served in sections.
 
 Manage multiple devices
 
@@ -30,25 +28,13 @@ Sign up for a free PHP web hosting service such as https://www.000webhost.com/ a
 
 ## 3. Install Firmware
 
+Open up UPyCraft and 
 
-Download Python to your computer from https://www.python.org/downloads/ and be sure to enable install to path.
-
-Open your command line app.
-
-Enter "pip install esptool" and follow prompts.
-
-Enter ```cd C:\Users\g9duf\Desktop\micropython``` replacing path with the actual path to your micropython.bin file.
-
-Enter ```esptool.py --chip esp8266 --port COM12 erase_flash``` replacing COM12 with the USB  your board is connected to.
-
-Enter ```esptool.py --chip esp8266 --port COM12 write_flash -z 0x1000 micropython.bin``` replacing COM12 with the port your board is connected to.
 
 ## 4. Install the Script
 
 
-In a text editor such as Notepad, open up main.py and input your building WiFi hotspot credentials and web hosting URL for led.php and hit save.
-
-Connect to the mini WiFi hotspot broadcasted by the board and go to http://micropython.org/webrepl/ to load main.py onto the board.
+In a text editor such as Notepad, open up connectWiFI.py and input your WiFi hotspot credentials and in main.py enter your web hosting URL for led.php and hit save.
 
 ## 5. Solder up your device 
 >D1 Mini ESP8266 5V---5V 2A Power---LED VCC
