@@ -36,12 +36,21 @@ Open up UPyCraft and select board-->esp8266, select active USB port, and click b
 
 In a text editor such as Notepad, open up connectWiFI.py and input your WiFi hotspot credentials and in main.py enter your web hosting URL for led.php and hit save. Add these files to the board's filesystem using UPyCraft
 
-## 5. Solder up your device 
+## 5. Solder up your device
+![](wire1.jpg)
+![](wire2.jpg)
+![](solder1.jpg)
+![](solder2.jpg)
+![](solder3.jpg)
+Strip wire tips and tin with solder then fuse together.
+
 >D1 Mini ESP8266 5V---5V 2A Power---LED VCC
 
 >D1 Mini ESP8266 GND---Ground 2A Power---LED Ground
 
 >D1 Mini ESP8266 GPIO4(D2)---LED Strip Data In
+
+Wrap individual connections in electrical tape to insulate and prevent a short circuit.
 
 **Note: Some LED strips have additional wires for convenient power connection**
 
@@ -51,7 +60,7 @@ In a text editor such as Notepad, open up connectWiFI.py and input your WiFi hot
 Edit the settings at your web hosting URL where led.php is located to program the device.
 ...
 
-![](appdemo.gif)
+![](app.gif)
 
 
 ## 7. Enjoy!
