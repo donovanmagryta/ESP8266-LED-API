@@ -67,7 +67,7 @@ In a text editor or in UPyCraft, open up **connectWiFi.py** and input your WiFi 
 
 ![](code.gif)
 
-## 5. Solder up your device
+## 6. Solder up your device
 Strip wire tips
 
 ![](wire1.jpg)
@@ -92,13 +92,13 @@ Wrap individual connections in electrical tape to insulate and prevent a short c
 
 **Most Addressable LED strips have two additional power wires for convenience**
 
-## 6. Train the Devive
+## 7. Train the Devive
 Edit the settings at your web hosting URL where led.php is located to program the device.
 
 ![](app.gif)
 
 
-## 7. Enjoy!
+## Further Resources
 
 Here is a list of public APIs that you may be able to pull data from using this system:
 
