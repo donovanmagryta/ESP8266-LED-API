@@ -21,7 +21,7 @@ Cheap - parts cost < $10 US Dollars
 
 * Soldering Iron & 60/40 Rosin Core Lead Solder: https://www.banggood.com/custlink/DmKDPhZ6e6
 
-* 5V 2A Power Supply - **Must be at least 2 amps.** - I used a cut USB cable and a 2.1A USB Charger. https://www.banggood.com/custlink/mD3K5Y9egq 
+* 5V 2A+ Power Supply - **Must be at least 2 amps.** - I used a cut USB cable and a 2.1A USB Charger. https://www.banggood.com/custlink/mD3K5Y9egq 
 
 ## 2. Install the Web App
 Sign up for a free PHP web hosting service such as https://www.000webhost.com/
