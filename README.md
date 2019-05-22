@@ -13,6 +13,12 @@ Optimized circuit efficiency by using 60 pure red, green, or blue WS2812B LEDs.
 
 Cheap - parts cost < $10 US Dollars
 
+![](demo1.gif)
+
+![](demo2.gif)
+
+![](demo.jpg)
+
 # Tutorial:
 ## 1. Get Parts:
 * Wemos D1 Mini - https://www.banggood.com/custlink/GvvK5E8B0P
@@ -57,7 +63,7 @@ Open up UPyCraft and select board-->esp8266, select active USB port, and click b
 ![](burn.gif)
 
 ## 5. Install the Script
-In a text editor or in UPyScraft, open up connectWiFI.py and input your WiFi hotspot credentials and in main.py enter your web hosting URL for led.php and hit save. Download these files to the board's filesystem.
+In a text editor or in UPyScraft, open up *connectWiFI.py* and input your WiFi hotspot credentials and in *main.py* enter your web hosting URL for led.php and hit save. Download these files to the board's filesystem.
 
 ![](code.gif)
 
