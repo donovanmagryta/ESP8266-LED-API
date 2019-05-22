@@ -31,13 +31,18 @@ Sign up for a free PHP web hosting service such as https://www.000webhost.com/ a
 Modify the url in the led.php to match the url of your website.
 
 ## 3. Install Firmware
-
+![](unzip1.gif)
+![](unzip2.gif)
+Unzip the files.
+![](driver1.gif)
+![](driver2.gif)
+Install the CH340 drivers.
+![](burn.gif)
 Open up UPyCraft and select board-->esp8266, select active USB port, and click burn firmware. Set flash erase-->on, custom firmware-->select your micropython.bin file you downloaded earlier and hit "flash".
 
 
 ## 4. Install the Script
-
-
+![](code.gif)
 In a text editor such as Notepad, open up connectWiFI.py and input your WiFi hotspot credentials and in main.py enter your web hosting URL for led.php and hit save. Add these files to the board's filesystem using UPyCraft
 
 ## 5. Solder up your device
@@ -71,4 +76,5 @@ Edit the settings at your web hosting URL where led.php is located to program th
 
 Here is a list of public APIs that you may be able to pull data from using this system:
 https://github.com/toddmotto/public-apis
+![](apilist.gif)
 
