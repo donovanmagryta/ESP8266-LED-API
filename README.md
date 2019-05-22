@@ -90,7 +90,7 @@ Wrap individual connections in electrical tape to insulate and prevent a short c
 
 ![](tape.jpg)
 
-**Note: Some LED strips have additional wires for convenient power connection**
+**Most Addressable LED strips have two additional power wires for convenience**
 
 ## 6. Train the Devive
 Edit the settings at your web hosting URL where led.php is located to program the device.
