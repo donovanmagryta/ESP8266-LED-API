@@ -58,12 +58,12 @@ Install the CH340 drivers.
 ![](driver2.gif)
 
 ## 4. Install Firmware
-Open up UPyCraft and select board-->esp8266, select active USB port, and click burn firmware. Set flash erase-->on, custom firmware-->select your micropython.bin file you downloaded earlier and hit "flash".
+Open up UPyCraft and select board-->esp8266, select active USB port, and click burn firmware. Set flash erase-->on, custom firmware-->select your **micropython.bin** file you downloaded earlier and hit "flash".
 
 ![](burn.gif)
 
 ## 5. Install the Script
-In a text editor or in UPyScraft, open up *connectWiFI.py* and input your WiFi hotspot credentials and in *main.py* enter your web hosting URL for led.php and hit save. Download these files to the board's filesystem.
+In a text editor or in UPyScraft, open up **connectWiFi.py** and input your WiFi hotspot credentials and in **main.py** enter your web hosting URL for led.php and hit save. Download these files to the board's filesystem.
 
 ![](code.gif)
 
