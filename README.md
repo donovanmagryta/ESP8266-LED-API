@@ -81,6 +81,7 @@ Then tin with solder then fuse together.
 >D1 Mini ESP8266 GND---Ground 2A Power---LED Ground
 
 >D1 Mini ESP8266 GPIO4(D2)---LED Strip Data In
+**Green wire = data, Red wire = +5V, White wire = Ground**
 
 ![](solder1.jpg)
 ![](solder2.jpg)
