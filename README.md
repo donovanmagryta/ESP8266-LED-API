@@ -91,7 +91,7 @@ Then tin with solder then fuse together.
 
 Wrap individual connections in electrical tape to insulate and prevent a short circuit.
 
-![](tape1.jpg)
+![](tape.jpg)
 
 **Most Addressable LED strips have two additional power wires for convenience**
 
