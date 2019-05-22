@@ -95,7 +95,7 @@ Wrap individual connections in electrical tape to insulate and prevent a short c
 
 **Most Addressable LED strips have two additional power wires for convenience**
 
-## 7. Train the Devive
+## 7. Train the Device
 Edit the settings at your web hosting URL where led.php is located to program the device.
 
 ![](app.gif)
