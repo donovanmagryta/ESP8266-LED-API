@@ -1,5 +1,4 @@
-# ESP8266 - IoT Whiteboard Example
-
+# ESP8266 - IoT Whiteboard
 ESP8266 based LED strip display of Yes/No API data.
 
 Example API queries:
