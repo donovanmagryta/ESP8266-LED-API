@@ -1,8 +1,8 @@
 def connect():
     import network
 
-    ssid = "djmobile"
-    password =  "1234567854231"
+    ssid = "mywifi"
+    password =  "mywifipassword"
 
     station = network.WLAN(network.STA_IF)
  
