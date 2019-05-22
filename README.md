@@ -17,7 +17,7 @@ Cheap - parts cost < $10 US Dollars
 ## 1. Get Parts:
 * Wemos D1 Mini - https://www.banggood.com/custlink/GvvK5E8B0P
 
-* WS2812B Addressable 60 LED Strip - https://www.banggood.com/custlink/3GmmFR9ee8
+* WS2812B Addressable LED Strip (You must cut down to 60 LEDs with scissors) - https://www.banggood.com/custlink/3GmmFR9ee8
 
 * Soldering Iron & 60/40 Rosin Core Lead Solder: https://www.banggood.com/custlink/DmKDPhZ6e6
 
