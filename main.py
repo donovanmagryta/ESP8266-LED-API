@@ -30,7 +30,10 @@ while True:
     try:
       url = response[device][z]["url"]
       #print (url)
-      #uri = str(url)
+      #uri = str(url
+      key = response[device][z]["key"]
+      #print (key
+      auth = HTTPBasicAuth('api-key', key)
       find = response[device][z]["find"]
       #print (find)
       match = response[device][z]["matches"]
@@ -41,7 +44,7 @@ while True:
       pauseit = float(pause)
       np[59] = (0, 128, 0)
       time.sleep(pauseit)
-      responsey = urequests.get(url).json()
+      responsey = urequests.get(url, auth = auth).json()
       find2 = responsey[find]
       find3 = str(find2)
       if (find3 == match):
