@@ -26,9 +26,7 @@ Cheap - core parts cost < $10 US Dollars
 
 * Hot Glue Gun with Sticks: https://www.banggood.com/custlink/KKvKHhSNEe
 
-* Whiteboard or Acrylic Sheet
-
-* Dry Erase Marker
+* Whiteboard or Acrylic Sheet and Dry Erase Marker: https://www.ebay.com/itm/16-24-35-47-Aluminum-Frame-Magnetic-Whiteboard-Dry-Erase-w-Board-Marker-Pen/311936582732?hash=item48a0de844c:m:m-E-ZRTFjVYbyOAs701hznw&frcectupt=true
 
 ## 2. Install the Web App
 Sign up for a free PHP web hosting service such as https://www.000webhost.com/
