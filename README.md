@@ -102,8 +102,10 @@ Wrap individual connections in electrical tape to insulate and prevent a short c
 
 ## 7. Train the Device
 Edit the settings at your web hosting URL where led.php is located to program the device.
+JSON is a nested data structure. To access the information you want, you need to enter the correct indices. As a way to understand better, here is a representation of the weather api data "consolidated_weather"-->1-->"weather_state_abbr". The TV API: 0-->"show"-->"status". Notice how curly brackets start and terminate each section.
 
-![](app.gif)
+
+![](app1.gif)
 
 
 ## Further Resources
