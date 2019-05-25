@@ -12,7 +12,7 @@ Optimized circuit efficiency by using 60 pure red, green, or blue WS2812B LEDs.
 
 Cheap - core parts cost < $10 US Dollars
 
-![](result.jpg)
+![](out.jpg)
 
 # Tutorial:
 ## 1. Get Parts:
